@@ -10,6 +10,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
+      "https://path-forge-rnf8b9v83-keshvis-projects-6117965c.vercel.app"
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     credentials: true,
